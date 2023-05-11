@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "pnpm dlx tailwindcss -i styles/globals.css -o public/app.css --minify && next build",
+    "build": "next build",
+    "build-css": "pnpm dlx tailwindcss -i styles/globals.css -o public/app.css --minify",
     "start": "next start"
   },
   "dependencies": {
