@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "./node_modules/.bin/tailwind -i styles/globals.css -o public/app.css --minify &&next build",
+    "build": "npx tailwind -i styles/globals.css -o public/app.css --minify &&next build",
     "start": "next start"
   },
   "dependencies": {
